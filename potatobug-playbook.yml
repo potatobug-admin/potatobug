@@ -33,7 +33,7 @@ asciidoc:
 # Topic source repository listing - all documents stored on github
 content:
   sources:
-    - url: https://github.com/potatobuug-admin/potatobug-data.git
+    - url: https://github.com/potatobug-admin/potatobug-data.git
       branches: main
       #start_path: .
 

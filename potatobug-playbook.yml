@@ -1,0 +1,47 @@
+site:
+  title: Potato Bug
+  url: https://potatobug.github.io
+  start_page: potatobug::index.adoc
+  robots: allow
+
+#tmp cache
+runtime:
+  cache_dir: ./.cache/antora
+  # Set log level
+  log:
+    level: debug
+
+# List of common words and terms. For example: Use {br} within documents for replacement
+# Asciidoc syntactical sugar functions
+asciidoc:
+  attributes:
+    potatobug: "Potato Bug"
+
+    linkattrs: true # Allows link text, optional target and roles as attributes on links
+    sectlinks: true # Turns section titles into links
+    sectnums: true # Turns on section numbers
+    sectnumlevels: 5 # Number of section levels allowed
+    toclevels: 3 # Number of tables of content levels allowed
+    #toc: center # Table of contents at top of document
+    icons: font # Enables font icons
+    experimental: true # Enables button, menu and keyboard macros
+    idprefix: "" # Custom id prefix
+    idseparator: "-" # Custom id separator
+    page-pagination: "" # Custom pagination 
+    construction: "This page is under construction. Please check back later." # Custom construction message
+
+# Topic source repository listing - all documents stored on github
+content:
+  sources:
+    - url: https://github.com/potatobuug-admin/potatobug-data.git
+      branches: main
+      #start_path: .
+
+# User Interface Configuration
+ui:
+  bundle:
+    # Default Base User Interface
+    url: ./branding/default-ui/ui-bundle.zip
+    snapshot: true
+  # Custom styling for User Interface
+  supplemental_files: ./branding/supplemental-ui/

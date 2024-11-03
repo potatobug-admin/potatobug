@@ -11,7 +11,7 @@ runtime:
   log:
     level: debug
 
-# List of common words and terms. For example: Use {br} within documents for replacement
+# List of common words and terms. For example: Use {pototobug} within documents for replacement "Potato Bug"
 # Asciidoc syntactical sugar functions
 asciidoc:
   attributes:

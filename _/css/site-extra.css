@@ -556,7 +556,11 @@ a.rtBibleRef {
 }
 
 .timestamp {
-  background-color: #ffd0f4;
+  background-color: #ffe4f9;
+}
+
+.reference {
+  background-color: #dbe6f3;
 }
 
 

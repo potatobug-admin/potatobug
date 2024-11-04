@@ -1,6 +1,6 @@
 site:
   title: Potato Bug
-  url: https://potatobug.github.io
+  url: https://potatobug-admin.github.io/
   start_page: potatobug::index.adoc
   robots: allow
 

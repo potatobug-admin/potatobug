@@ -19,7 +19,7 @@ asciidoc:
 
     linkattrs: true # Allows link text, optional target and roles as attributes on links
     sectlinks: true # Turns section titles into links
-    sectnums: true # Turns on section numbers
+    sectnums: false # Turns on section numbers
     sectnumlevels: 5 # Number of section levels allowed
     toclevels: 3 # Number of tables of content levels allowed
     #toc: center # Table of contents at top of document

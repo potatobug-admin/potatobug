@@ -21,5 +21,5 @@ def get_transcript(video_id, language="en"):
         print(f"Error: {e}")
 
 # Example usage
-video_id = ""  # Replace with actual video ID
+video_id = "Cu--teRtlmA"  # Replace with actual video ID
 get_transcript(video_id)

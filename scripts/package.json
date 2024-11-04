@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "asciidoctor": "^3.0.4",
+    "asciidoctor-pdf": "^1.0.0-alpha.16"
+  }
+}

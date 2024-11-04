@@ -544,12 +544,17 @@ a.rtBibleRef {
 }
 
 .argument {
-  background-color: #fbc787;
+  background-color: #cef4d0;
   font-size: large;
 }
 
 .rebuttal {
-  background-color: #abfeb0;
+  background-color: #cef4d0;
+  font-size: large;
+}
+
+.guest {
+  background-color: #f6e8bb;
   font-size: large;
 }
 

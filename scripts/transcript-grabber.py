@@ -21,5 +21,8 @@ def get_transcript(video_id, language="en"):
         print(f"Error: {e}")
 
 # Example usage
-video_id = "Cu--teRtlmA"  # Replace with actual video ID
+video_id = "SUPYfupgSM"  # Replace with actual video ID
 get_transcript(video_id)
+
+# Look into using whisper to pull transcripts off youtube in realtime.
+# https://github.com/openai/whisper
